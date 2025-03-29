@@ -6,6 +6,9 @@ import { Component } from '@angular/core';
   templateUrl: './about.component.html',
   styleUrl: './about.component.css'
 })
+
 export class AboutComponent {
-  title = 'Mi aplicación Angular about';
+  title = 'titulo de ruta about';
+  descripcion="descripcion ruta about"
 }
+ 
