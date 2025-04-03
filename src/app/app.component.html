@@ -1,14 +1,13 @@
-<!-- <nav>
-  <ul>
-    <li><a routerLink="/about">About</a></li>
-    <li><a routerLink="/services">Services</a></li>
-  </ul>
-</nav> -->
 
-<h1 class="text-3xl font-bold underline bg-gray-300">
-  Hello world!
-</h1>
+<app-navbar></app-navbar>
+<div class="bg-gray-900 p-5 text-white">
+  <h1 class="text-3xl font-bold  bg">
+    Hello world!
+  </h1>
+  <p>{{title}}</p>
+</div>
 
 
 <!-- Este es el contenedor donde se renderizan los componentes según la ruta -->
 <router-outlet></router-outlet>
+<app-footer></app-footer>

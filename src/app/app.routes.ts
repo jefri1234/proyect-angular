@@ -7,5 +7,5 @@ export const routes: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'services', component: ServicesComponent },
   { path: 'product', component: ProductComponent },
-  { path: '', redirectTo: '/', pathMatch: 'full' } // Redirige a "about" por defecto
+  { path: '', redirectTo: '/about', pathMatch: 'full' } // Redirige a "about" por defecto
 ];
